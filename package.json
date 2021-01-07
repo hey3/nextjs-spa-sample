@@ -1,0 +1,56 @@
+{
+  "name": "nextjs-spa-sample",
+  "description": "Next.js の zero-config の恩賜を受けた SPA",
+  "version": "0.1.0",
+  "private": true,
+  "author": "hey3",
+  "keywords": [
+    "nextjs",
+    "spa",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hey3/nextjs-spa-sample"
+  },
+  "bugs": {
+    "url": "https://github.com/hey3/nextjs-spa-sample/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "format": "prettier --check './src/**/*.{ts,tsx,json}'",
+    "format:fix": "prettier --write './src/**/*.{ts,tsx,json}'",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint --fix './src/**/*.{ts,tsx}'",
+    "typecheck": "tsc --project tsconfig.json --pretty --noEmit"
+  },
+  "dependencies": {
+    "next": "^10.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.1.3"
+  }
+}
